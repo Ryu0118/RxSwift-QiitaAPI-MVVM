@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (5.5.0)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - KRProgressHUD
+  - RxAlamofire
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: c028d46cb7dad33e4f5005f8dcf5ae70652626ce
+
+COCOAPODS: 1.11.2

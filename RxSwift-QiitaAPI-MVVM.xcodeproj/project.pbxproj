@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231E79DB27DD71AD0077E294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79DA27DD71AD0077E294 /* AppDelegate.swift */; };
+		231E79DD27DD71AD0077E294 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79DC27DD71AD0077E294 /* SceneDelegate.swift */; };
+		231E79DF27DD71AD0077E294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79DE27DD71AD0077E294 /* ViewController.swift */; };
+		231E79E227DD71AD0077E294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231E79E027DD71AD0077E294 /* Main.storyboard */; };
+		231E79E427DD71B10077E294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231E79E327DD71B10077E294 /* Assets.xcassets */; };
+		231E79E727DD71B10077E294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231E79E527DD71B10077E294 /* LaunchScreen.storyboard */; };
+		231E79F327DDDAC40077E294 /* QiitaAPIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79F227DDDAC40077E294 /* QiitaAPIViewModel.swift */; };
+		231E79F527DDDC5E0077E294 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79F427DDDC5E0077E294 /* APIResponse.swift */; };
+		EE13BB870E0DF0A6994EB545 /* Pods_RxSwift_QiitaAPI_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A4E12BA008BE0EA78F5EA3 /* Pods_RxSwift_QiitaAPI_MVVM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EF54090EB04088C5D284877 /* Pods-RxSwift-QiitaAPI-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-QiitaAPI-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-QiitaAPI-MVVM/Pods-RxSwift-QiitaAPI-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		231E79D727DD71AD0077E294 /* RxSwift-QiitaAPI-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-QiitaAPI-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231E79DA27DD71AD0077E294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		231E79DC27DD71AD0077E294 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		231E79DE27DD71AD0077E294 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		231E79E127DD71AD0077E294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		231E79E327DD71B10077E294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231E79E627DD71B10077E294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231E79E827DD71B10077E294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231E79F227DDDAC40077E294 /* QiitaAPIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaAPIViewModel.swift; sourceTree = "<group>"; };
+		231E79F427DDDC5E0077E294 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		33A4E12BA008BE0EA78F5EA3 /* Pods_RxSwift_QiitaAPI_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_QiitaAPI_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17E7DBC75671E6D96D9C5E6 /* Pods-RxSwift-QiitaAPI-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-QiitaAPI-MVVM.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-QiitaAPI-MVVM/Pods-RxSwift-QiitaAPI-MVVM.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231E79D427DD71AD0077E294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE13BB870E0DF0A6994EB545 /* Pods_RxSwift_QiitaAPI_MVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F74D471B28DE57495F4F105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33A4E12BA008BE0EA78F5EA3 /* Pods_RxSwift_QiitaAPI_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		231E79CE27DD71AD0077E294 = {
+			isa = PBXGroup;
+			children = (
+				231E79D927DD71AD0077E294 /* RxSwift-QiitaAPI-MVVM */,
+				231E79D827DD71AD0077E294 /* Products */,
+				5289EDA72E0373A9F428EE61 /* Pods */,
+				1F74D471B28DE57495F4F105 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		231E79D827DD71AD0077E294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231E79D727DD71AD0077E294 /* RxSwift-QiitaAPI-MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231E79D927DD71AD0077E294 /* RxSwift-QiitaAPI-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				231E79E827DD71B10077E294 /* Info.plist */,
+				231E79F127DDDAA70077E294 /* ViewModel */,
+				231E79F027DDDAA20077E294 /* Model */,
+				231E79EF27DDDA9B0077E294 /* View */,
+				231E79EE27DDDA920077E294 /* Other */,
+			);
+			path = "RxSwift-QiitaAPI-MVVM";
+			sourceTree = "<group>";
+		};
+		231E79EE27DDDA920077E294 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				231E79DA27DD71AD0077E294 /* AppDelegate.swift */,
+				231E79DC27DD71AD0077E294 /* SceneDelegate.swift */,
+				231E79E027DD71AD0077E294 /* Main.storyboard */,
+				231E79E327DD71B10077E294 /* Assets.xcassets */,
+				231E79E527DD71B10077E294 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		231E79EF27DDDA9B0077E294 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				231E79DE27DD71AD0077E294 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		231E79F027DDDAA20077E294 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				231E79F427DDDC5E0077E294 /* APIResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		231E79F127DDDAA70077E294 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				231E79F227DDDAC40077E294 /* QiitaAPIViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5289EDA72E0373A9F428EE61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EF54090EB04088C5D284877 /* Pods-RxSwift-QiitaAPI-MVVM.debug.xcconfig */,
+				E17E7DBC75671E6D96D9C5E6 /* Pods-RxSwift-QiitaAPI-MVVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231E79D627DD71AD0077E294 /* RxSwift-QiitaAPI-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231E79EB27DD71B10077E294 /* Build configuration list for PBXNativeTarget "RxSwift-QiitaAPI-MVVM" */;
+			buildPhases = (
+				A1A5341635ED555815510A94 /* [CP] Check Pods Manifest.lock */,
+				231E79D327DD71AD0077E294 /* Sources */,
+				231E79D427DD71AD0077E294 /* Frameworks */,
+				231E79D527DD71AD0077E294 /* Resources */,
+				44D13AB2557C5671A20A2447 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RxSwift-QiitaAPI-MVVM";
+			productName = "RxSwift-QiitaAPI-MVVM";
+			productReference = 231E79D727DD71AD0077E294 /* RxSwift-QiitaAPI-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231E79CF27DD71AD0077E294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					231E79D627DD71AD0077E294 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 231E79D227DD71AD0077E294 /* Build configuration list for PBXProject "RxSwift-QiitaAPI-MVVM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231E79CE27DD71AD0077E294;
+			productRefGroup = 231E79D827DD71AD0077E294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231E79D627DD71AD0077E294 /* RxSwift-QiitaAPI-MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231E79D527DD71AD0077E294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231E79E727DD71B10077E294 /* LaunchScreen.storyboard in Resources */,
+				231E79E427DD71B10077E294 /* Assets.xcassets in Resources */,
+				231E79E227DD71AD0077E294 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44D13AB2557C5671A20A2447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-QiitaAPI-MVVM/Pods-RxSwift-QiitaAPI-MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-QiitaAPI-MVVM/Pods-RxSwift-QiitaAPI-MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwift-QiitaAPI-MVVM/Pods-RxSwift-QiitaAPI-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A5341635ED555815510A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift-QiitaAPI-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231E79D327DD71AD0077E294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231E79F327DDDAC40077E294 /* QiitaAPIViewModel.swift in Sources */,
+				231E79DF27DD71AD0077E294 /* ViewController.swift in Sources */,
+				231E79DB27DD71AD0077E294 /* AppDelegate.swift in Sources */,
+				231E79F527DDDC5E0077E294 /* APIResponse.swift in Sources */,
+				231E79DD27DD71AD0077E294 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		231E79E027DD71AD0077E294 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231E79E127DD71AD0077E294 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		231E79E527DD71B10077E294 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231E79E627DD71B10077E294 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231E79E927DD71B10077E294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		231E79EA27DD71B10077E294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231E79EC27DD71B10077E294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF54090EB04088C5D284877 /* Pods-RxSwift-QiitaAPI-MVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8RH83B4LT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RxSwift-QiitaAPI-MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibuya.RxSwift-QiitaAPI-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231E79ED27DD71B10077E294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17E7DBC75671E6D96D9C5E6 /* Pods-RxSwift-QiitaAPI-MVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8RH83B4LT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RxSwift-QiitaAPI-MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibuya.RxSwift-QiitaAPI-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231E79D227DD71AD0077E294 /* Build configuration list for PBXProject "RxSwift-QiitaAPI-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231E79E927DD71B10077E294 /* Debug */,
+				231E79EA27DD71B10077E294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231E79EB27DD71B10077E294 /* Build configuration list for PBXNativeTarget "RxSwift-QiitaAPI-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231E79EC27DD71B10077E294 /* Debug */,
+				231E79ED27DD71B10077E294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 231E79CF27DD71AD0077E294 /* Project object */;
+}
